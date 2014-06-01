@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pl.arnea.footballadventuremanager">
+    <uses-sdk android:minSdkVersion="17"/>
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/FootballAdventureTheme"
+            android:screenOrientation="landscape">
+        <activity
+                android:name=".ui.StartGameMenuActivity"
+                android:label="@string/app_name"
+                android:theme="@style/FootballAdventureThemeNoActionBar"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="pl.arnea.footballadventuremanager.ui.DBTEST"
+                android:label="@string/title_activity_dbtest">
+        </activity>
+        <activity
+                android:name=".ui.NewGameDataActivity"
+                android:label="@string/title_activity_create_new_game"
+                android:theme="@style/FootballAdventureThemeNoActionBar"
+
+                >
+
+        </activity>
+
+        <activity
+                android:name=".ui.NewGameWizardActivity"
+                android:label="@string/app_name"
+                android:theme="@style/FootballAdventureThemeNoActionBar">
+        </activity>
+
+
+        <activity android:name=".ui.TeamPlayerDetailActivity"
+                  android:theme="@style/FootballAdventureThemeNoActionBar"/>
+        <activity android:name=".fragments.FragmentChangeActivity"/>
+
+        <activity android:name=".ui.CompetitionFixtureListActivity"
+                  android:theme="@style/FootballAdventureThemeNoActionBar"
+                />
+
+
+    </application>
+</manifest>

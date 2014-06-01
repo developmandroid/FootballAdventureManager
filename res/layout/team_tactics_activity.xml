@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingTop="10dp"
+              android:orientation="vertical"
+              android:background="@drawable/tactics">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_height="260dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+            >
+
+        <!-- Goalkeeper zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone"
+
+                >
+
+            <!-- GK -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/gk"
+                    style="@style/TacticsPlayerPosition">
+
+                <ImageView
+                        android:id="@+id/gk_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/gk_name"
+                        android:text="@string/gk"
+                        style="@style/TacticsPlayerCaption"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- Defend zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone">
+
+            <!-- DEF 1 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/def1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/def1_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/def1_name"
+                        android:text="@string/d"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- DEF 2 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/def2"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/def2_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/def2_name"
+                        android:text="@string/d"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- DEF 3 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/def3"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/def3_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/def3_name"
+                        android:text="@string/d"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- DEF 4 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/def4"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/def4_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/def4_name"
+                        android:text="@string/d"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- DEF 5 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/def5"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/def5_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/def5_name"
+                        android:text="@string/d"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- DefendMidfield zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone">
+
+            <!-- MIDDEF 1 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mdef1"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mdef1_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mdef1_name"
+                        android:text="@string/dm"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MIDDEF 2 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mdef2"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mdef2_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mdef2_name"
+                        android:text="@string/dm"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MIDDEF 3 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mdef3"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mdef3_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mdef3_name"
+                        android:text="@string/dm"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MIDDEF 4 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mdef4"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mdef4_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mdef4_name"
+                        android:text="@string/dm"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MIDDEF 5 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mdef5"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mdef5_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mdef5_name"
+                        android:text="@string/dm"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- Midfield zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone">
+
+            <!-- MID 1 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mid1"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mid1_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mid1_name"
+                        android:text="@string/m"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MID 2 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mid2"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mid2_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mid2_name"
+                        android:text="@string/m"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MID 3 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mid3"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mid3_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mid3_name"
+                        android:text="@string/m"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MID 4 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mid4"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mid4_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mid4_name"
+                        android:text="@string/m"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- MID 5 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mid5"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/mid5_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/mid5_name"
+                        android:text="@string/m"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- AttackingMidfield zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone">
+
+            <!-- ATTDEF 1 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/amid1"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/amid1_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/amid1_name"
+                        android:text="@string/am"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATTDEF 2 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/amid2"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/amid2_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/amid2_name"
+                        android:text="@string/am"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATTDEF 3 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/amid3"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/amid3_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/amid3_name"
+                        android:text="@string/am"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATTDEF 4 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/amid4"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/amid4_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/amid4_name"
+                        android:text="@string/am"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATTDEF 5 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/amid5"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/amid5_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/amid5_name"
+                        android:text="@string/am"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- Attacking zone -->
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/FieldZone">
+
+            <!-- ATT 1 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/att1"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/att1_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/att1_name"
+                        android:text="@string/a"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATT 2 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/att2"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/att2_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/att2_name"
+                        android:text="@string/a"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATT 3 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/att3"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/att3_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/att3_name"
+                        android:text="@string/a"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATT 4 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/att4"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/att4_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/att4_name"
+                        android:text="@string/a"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+            <!-- ATT 5 -->
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/att5"
+                    style="@style/TacticsPlayerPosition">
+                <ImageView
+                        android:id="@+id/att5_icon"
+                        android:src="@drawable/shirt"
+                        style="@style/TacticsPlayerIcon"/>
+                <TextView
+                        android:id="@+id/att5_name"
+                        android:text="@string/a"
+                        style="@style/TacticsPlayerCaption"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="58dp"
+                  android:orientation="horizontal"
+                  android:gravity="center_horizontal"
+            >
+
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res1"
+                android:layout_marginLeft="15dp"
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res1_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res1_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res2"
+                android:layout_marginLeft="15dp"
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res2_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res2_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res3"
+                android:layout_marginLeft="15dp"
+
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res3_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res3_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res4"
+                android:layout_marginLeft="15dp"
+
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res4_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res4_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res5"
+                android:layout_marginLeft="15dp"
+
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res5_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res5_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/res6"
+                android:layout_marginLeft="15dp"
+
+                style="@style/TacticsPlayerPosition">
+            <ImageView
+                    android:id="@+id/res6_icon"
+                    android:src="@drawable/shirt"
+                    style="@style/TacticsPlayerIcon"/>
+            <TextView
+                    android:id="@+id/res6_name"
+                    android:text="@string/res"
+                    style="@style/TacticsPlayerCaption"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

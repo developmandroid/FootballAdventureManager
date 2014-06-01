@@ -1,0 +1,120 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="FootballAdventureTheme" parent="Theme.Sherlock">
+        <item name="textAppearanceFinish">@style/TextAppearanceFinish</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/main_bg</item>
+    </style>
+    <style name="FootballAdventureThemeNoActionBar" parent="Theme.Sherlock.NoActionBar">
+        <item name="textAppearanceFinish">@style/TextAppearanceFinish</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/main_bg</item>
+    </style>
+
+    <!-- Application theme. -->
+
+
+    <!-- Buttons styles. -->
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/buttons</item>
+    </style>
+
+    <style name="PlayerList">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="PlayerList_big">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="TextAppearanceFinish" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="WizardPageContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WizardPageTitle">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#ff0099cc</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+
+    </style>
+
+    <style name="WizardFormLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+
+    <style name="PlayerRow">
+        <item name="android:background">#60000000</item>
+    </style>
+
+
+    <!-- TacticsFragment -->
+    <style name="FieldZone">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="TacticsPlayerPosition">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+
+
+    </style>
+
+    <style name="TacticsPlayerIcon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+
+
+    </style>
+
+    <style name="TacticsPlayerCaption">
+        <item name="android:layout_centerInParent">true</item>
+
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">#80000000</item>
+    </style>
+
+
+</resources>

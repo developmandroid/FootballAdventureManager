@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FOOTBALL_ADVENTURE_MANAGER.iml" filepath="$PROJECT_DIR$/FOOTBALL_ADVENTURE_MANAGER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/demos/demos.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/demos/demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SlidingMenu-master/example/example.iml" filepath="$PROJECT_DIR$/../SlidingMenu-master/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/fragments/fragments.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/fragments/fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/known-bugs/known-bugs.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/known-bugs/known-bugs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SlidingMenu-master/library/library.iml" filepath="$PROJECT_DIR$/../SlidingMenu-master/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/roboguice/roboguice.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/roboguice/roboguice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/styled/styled.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock-samples/styled/styled.iml" />
+    </modules>
+  </component>
+</project>
+
